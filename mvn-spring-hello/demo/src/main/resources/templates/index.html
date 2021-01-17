@@ -15,6 +15,14 @@
     <h2>
         Some useful HTML-elements
     </h2>
+    <h2 th:text="${paramName0}"></h2>
+    <h1 th:text="${paramName1}"></h1>
+    <h1>Mambo siciliano</h1>
+
+    <p th:each="elem : ${list}">
+        <span th:text="${elem}">hello world!</span>
+    </p>
+
     <table>
         <tr>
             <td>Element</td>
